@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910FFBA92AB877BD002F20CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 910FFBA82AB877BD002F20CF /* AppDelegate.m */; };
+		910FFBAF2AB877BD002F20CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910FFBAE2AB877BD002F20CF /* ViewController.m */; };
+		910FFBB42AB877BF002F20CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910FFBB32AB877BF002F20CF /* Assets.xcassets */; };
+		910FFBB72AB877BF002F20CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910FFBB52AB877BF002F20CF /* LaunchScreen.storyboard */; };
+		910FFBBA2AB877BF002F20CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 910FFBB92AB877BF002F20CF /* main.m */; };
+		910FFBC42AB877BF002F20CF /* CustomServiceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 910FFBC32AB877BF002F20CF /* CustomServiceDemoTests.m */; };
+		910FFBCE2AB877BF002F20CF /* CustomServiceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 910FFBCD2AB877BF002F20CF /* CustomServiceDemoUITests.m */; };
+		910FFBD02AB877BF002F20CF /* CustomServiceDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 910FFBCF2AB877BF002F20CF /* CustomServiceDemoUITestsLaunchTests.m */; };
+		910FFC112AB8798C002F20CF /* __uniappes6.js in Resources */ = {isa = PBXBuildFile; fileRef = 910FFBDE2AB8798C002F20CF /* __uniappes6.js */; };
+		910FFC122AB8798C002F20CF /* uni-jsframework.js in Resources */ = {isa = PBXBuildFile; fileRef = 910FFBDF2AB8798C002F20CF /* uni-jsframework.js */; };
+		910FFC132AB8798C002F20CF /* DCTZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 910FFBE02AB8798C002F20CF /* DCTZImagePickerController.bundle */; };
+		910FFC142AB8798C002F20CF /* DCMediaEditingController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 910FFBE12AB8798C002F20CF /* DCMediaEditingController.bundle */; };
+		910FFC152AB8798C002F20CF /* PandoraApi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 910FFBE22AB8798C002F20CF /* PandoraApi.bundle */; };
+		910FFC162AB8798C002F20CF /* uni-jsframework-vue3.js in Resources */ = {isa = PBXBuildFile; fileRef = 910FFBE32AB8798C002F20CF /* uni-jsframework-vue3.js */; };
+		910FFC172AB8798C002F20CF /* unincomponents.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910FFBE42AB8798C002F20CF /* unincomponents.ttf */; };
+		910FFC182AB8798C002F20CF /* weex-polyfill.js in Resources */ = {isa = PBXBuildFile; fileRef = 910FFBE52AB8798C002F20CF /* weex-polyfill.js */; };
+		910FFC192AB8798C002F20CF /* weexUniJs.js in Resources */ = {isa = PBXBuildFile; fileRef = 910FFBE62AB8798C002F20CF /* weexUniJs.js */; };
+		910FFC1A2AB8798C002F20CF /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBE82AB8798C002F20CF /* Masonry.framework */; };
+		910FFC1B2AB8798D002F20CF /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBE92AB8798C002F20CF /* libSDWebImage.a */; };
+		910FFC1C2AB8798D002F20CF /* liblibIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBEA2AB8798C002F20CF /* liblibIO.a */; };
+		910FFC212AB8798D002F20CF /* AgoraRtcUniPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBEF2AB8798C002F20CF /* AgoraRtcUniPlugin.framework */; };
+		910FFC222AB8798E002F20CF /* liblibWeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF02AB8798C002F20CF /* liblibWeex.a */; };
+		910FFC232AB8798E002F20CF /* liblibPDRCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF12AB8798C002F20CF /* liblibPDRCore.a */; };
+		910FFC252AB8798F002F20CF /* liblibVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF32AB8798C002F20CF /* liblibVideo.a */; };
+		910FFC2B2AB87992002F20CF /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF92AB8798C002F20CF /* libopencore-amrnb.a */; };
+		910FFC2C2AB87992002F20CF /* liblibNativeUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBFA2AB8798C002F20CF /* liblibNativeUI.a */; };
+		910FFC2D2AB87993002F20CF /* liblibUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBFB2AB8798C002F20CF /* liblibUI.a */; };
+		910FFC2E2AB87994002F20CF /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBFC2AB8798C002F20CF /* libmp3lame.a */; };
+		910FFC2F2AB87994002F20CF /* libcoreSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBFD2AB8798C002F20CF /* libcoreSupport.a */; };
+		910FFC302AB87995002F20CF /* liblibStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBFE2AB8798C002F20CF /* liblibStorage.a */; };
+		910FFC322AB87997002F20CF /* liblibPGInvocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC002AB8798C002F20CF /* liblibPGInvocation.a */; };
+		910FFC332AB87998002F20CF /* IJKMediaFrameworkWithSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC012AB8798C002F20CF /* IJKMediaFrameworkWithSSL.framework */; };
+		910FFC352AB8799A002F20CF /* CustomService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC032AB8798C002F20CF /* CustomService.framework */; };
+		910FFC362AB8799B002F20CF /* libDCUniVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC042AB8798C002F20CF /* libDCUniVideo.a */; };
+		910FFC372AB8799C002F20CF /* DCUniVideoPublic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC052AB8798C002F20CF /* DCUniVideoPublic.framework */; };
+		910FFC382AB8799D002F20CF /* liblibNavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC062AB8798C002F20CF /* liblibNavigator.a */; };
+		910FFC3A2AB879A0002F20CF /* storage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC082AB8798C002F20CF /* storage.framework */; };
+		910FFC3B2AB879A1002F20CF /* liblibCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC092AB8798C002F20CF /* liblibCamera.a */; };
+		910FFC3D2AB879A3002F20CF /* DCUniRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC0B2AB8798C002F20CF /* DCUniRecord.framework */; };
+		910FFC3E2AB879A4002F20CF /* liblibMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC0C2AB8798C002F20CF /* liblibMedia.a */; };
+		910FFC412AB879A8002F20CF /* liblibNativeObj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC0F2AB8798C002F20CF /* liblibNativeObj.a */; };
+		910FFC422AB879AA002F20CF /* liblibZip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC102AB8798C002F20CF /* liblibZip.a */; };
+		910FFC452AB87B0F002F20CF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC442AB87B0F002F20CF /* AssetsLibrary.framework */; };
+		910FFC472AB87B1A002F20CF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC462AB87B1A002F20CF /* AVFoundation.framework */; };
+		910FFC492AB87B23002F20CF /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC482AB87B23002F20CF /* AVKit.framework */; };
+		910FFC4B2AB87B31002F20CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC4A2AB87B30002F20CF /* CoreGraphics.framework */; };
+		910FFC4D2AB87B3F002F20CF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC4C2AB87B3F002F20CF /* CoreMedia.framework */; };
+		910FFC4F2AB87B4C002F20CF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC4E2AB87B4C002F20CF /* CoreTelephony.framework */; };
+		910FFC512AB87B55002F20CF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC502AB87B55002F20CF /* CoreText.framework */; };
+		910FFC532AB87B60002F20CF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC522AB87B60002F20CF /* GLKit.framework */; };
+		910FFC552AB87B69002F20CF /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC542AB87B69002F20CF /* JavaScriptCore.framework */; };
+		910FFC572AB87B7A002F20CF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC562AB87B7A002F20CF /* libc++.tbd */; };
+		910FFC592AB87B8B002F20CF /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC582AB87B8A002F20CF /* libiconv.tbd */; };
+		910FFC5B2AB87B98002F20CF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC5A2AB87B98002F20CF /* MediaPlayer.framework */; };
+		910FFC5D2AB87BAA002F20CF /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC5C2AB87BAA002F20CF /* MetalKit.framework */; };
+		910FFC5F2AB87BB7002F20CF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC5E2AB87BB7002F20CF /* MobileCoreServices.framework */; };
+		910FFC612AB87BC4002F20CF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC602AB87BC4002F20CF /* OpenGLES.framework */; };
+		910FFC632AB87BD0002F20CF /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC622AB87BD0002F20CF /* Photos.framework */; };
+		910FFC652AB87BDA002F20CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC642AB87BDA002F20CF /* QuartzCore.framework */; };
+		910FFC672AB87BE6002F20CF /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC662AB87BE6002F20CF /* QuickLook.framework */; };
+		910FFC692AB87BF1002F20CF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC682AB87BF1002F20CF /* WebKit.framework */; };
+		910FFC6C2AB87C34002F20CF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910FFC6B2AB87C34002F20CF /* File.swift */; };
+		910FFC6D2AB87C66002F20CF /* CustomService.framework in Resources */ = {isa = PBXBuildFile; fileRef = 910FFC032AB8798C002F20CF /* CustomService.framework */; };
+		910FFC6E2AB87C7B002F20CF /* AgoraAiNoiseSuppressionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF62AB8798C002F20CF /* AgoraAiNoiseSuppressionExtension.xcframework */; };
+		910FFC6F2AB87C7D002F20CF /* AgoraAiNoiseSuppressionExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF62AB8798C002F20CF /* AgoraAiNoiseSuppressionExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC712AB87C84002F20CF /* AgoraAudioBeautyExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBEB2AB8798C002F20CF /* AgoraAudioBeautyExtension.xcframework */; };
+		910FFC722AB87C87002F20CF /* AgoraAudioBeautyExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBEB2AB8798C002F20CF /* AgoraAudioBeautyExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC732AB87C8D002F20CF /* AgoraClearVisionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF22AB8798C002F20CF /* AgoraClearVisionExtension.xcframework */; };
+		910FFC742AB87C8F002F20CF /* AgoraClearVisionExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF22AB8798C002F20CF /* AgoraClearVisionExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC752AB87C97002F20CF /* AgoraContentInspectExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF52AB8798C002F20CF /* AgoraContentInspectExtension.xcframework */; };
+		910FFC762AB87C99002F20CF /* AgoraContentInspectExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF52AB8798C002F20CF /* AgoraContentInspectExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC772AB87CA1002F20CF /* AgoraDav1d.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF82AB8798C002F20CF /* AgoraDav1d.xcframework */; };
+		910FFC782AB87CA3002F20CF /* AgoraDav1d.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF82AB8798C002F20CF /* AgoraDav1d.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC792AB87CAC002F20CF /* Agorafdkaac.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBFF2AB8798C002F20CF /* Agorafdkaac.xcframework */; };
+		910FFC7A2AB87CAF002F20CF /* Agorafdkaac.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBFF2AB8798C002F20CF /* Agorafdkaac.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC7B2AB87CB8002F20CF /* Agoraffmpeg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBED2AB8798C002F20CF /* Agoraffmpeg.xcframework */; };
+		910FFC7C2AB87CBB002F20CF /* Agoraffmpeg.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBED2AB8798C002F20CF /* Agoraffmpeg.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC7D2AB87CC5002F20CF /* AgoraMicrosoftExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC022AB8798C002F20CF /* AgoraMicrosoftExtension.framework */; };
+		910FFC7E2AB87CC8002F20CF /* AgoraMicrosoftExtension.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC022AB8798C002F20CF /* AgoraMicrosoftExtension.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC7F2AB87CD2002F20CF /* AgoraPvcExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF72AB8798C002F20CF /* AgoraPvcExtension.xcframework */; };
+		910FFC802AB87CD6002F20CF /* AgoraPvcExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF72AB8798C002F20CF /* AgoraPvcExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC812AB87CE4002F20CF /* AgoraReplayKitExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC0A2AB8798C002F20CF /* AgoraReplayKitExtension.xcframework */; };
+		910FFC822AB87CE7002F20CF /* AgoraReplayKitExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC0A2AB8798C002F20CF /* AgoraReplayKitExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC832AB87CF2002F20CF /* AgoraRtcKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBEE2AB8798C002F20CF /* AgoraRtcKit.xcframework */; };
+		910FFC842AB87CF6002F20CF /* AgoraRtcKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBEE2AB8798C002F20CF /* AgoraRtcKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC852AB87D02002F20CF /* AgoraSoundTouch.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC072AB8798C002F20CF /* AgoraSoundTouch.xcframework */; };
+		910FFC862AB87D06002F20CF /* AgoraSoundTouch.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC072AB8798C002F20CF /* AgoraSoundTouch.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC872AB87D11002F20CF /* AgoraSpatialAudioExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBEC2AB8798C002F20CF /* AgoraSpatialAudioExtension.xcframework */; };
+		910FFC882AB87D16002F20CF /* AgoraSpatialAudioExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBEC2AB8798C002F20CF /* AgoraSpatialAudioExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC892AB87D22002F20CF /* AgoraSuperResolutionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC0E2AB8798C002F20CF /* AgoraSuperResolutionExtension.xcframework */; };
+		910FFC8A2AB87D27002F20CF /* AgoraSuperResolutionExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC0E2AB8798C002F20CF /* AgoraSuperResolutionExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC8B2AB87D34002F20CF /* AgoraVideoSegmentationExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF42AB8798C002F20CF /* AgoraVideoSegmentationExtension.xcframework */; };
+		910FFC8C2AB87D38002F20CF /* AgoraVideoSegmentationExtension.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFBF42AB8798C002F20CF /* AgoraVideoSegmentationExtension.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		910FFC8D2AB87D49002F20CF /* MicrosoftCognitiveServicesSpeech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC0D2AB8798C002F20CF /* MicrosoftCognitiveServicesSpeech.framework */; };
+		910FFC8E2AB87D4E002F20CF /* MicrosoftCognitiveServicesSpeech.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 910FFC0D2AB8798C002F20CF /* MicrosoftCognitiveServicesSpeech.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		910FFBC02AB877BF002F20CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 910FFB9C2AB877BD002F20CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 910FFBA32AB877BD002F20CF;
+			remoteInfo = CustomServiceDemo;
+		};
+		910FFBCA2AB877BF002F20CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 910FFB9C2AB877BD002F20CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 910FFBA32AB877BD002F20CF;
+			remoteInfo = CustomServiceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		910FFC702AB87C7F002F20CF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				910FFC8E2AB87D4E002F20CF /* MicrosoftCognitiveServicesSpeech.framework in Embed Frameworks */,
+				910FFC742AB87C8F002F20CF /* AgoraClearVisionExtension.xcframework in Embed Frameworks */,
+				910FFC6F2AB87C7D002F20CF /* AgoraAiNoiseSuppressionExtension.xcframework in Embed Frameworks */,
+				910FFC822AB87CE7002F20CF /* AgoraReplayKitExtension.xcframework in Embed Frameworks */,
+				910FFC722AB87C87002F20CF /* AgoraAudioBeautyExtension.xcframework in Embed Frameworks */,
+				910FFC8C2AB87D38002F20CF /* AgoraVideoSegmentationExtension.xcframework in Embed Frameworks */,
+				910FFC8A2AB87D27002F20CF /* AgoraSuperResolutionExtension.xcframework in Embed Frameworks */,
+				910FFC882AB87D16002F20CF /* AgoraSpatialAudioExtension.xcframework in Embed Frameworks */,
+				910FFC842AB87CF6002F20CF /* AgoraRtcKit.xcframework in Embed Frameworks */,
+				910FFC762AB87C99002F20CF /* AgoraContentInspectExtension.xcframework in Embed Frameworks */,
+				910FFC7A2AB87CAF002F20CF /* Agorafdkaac.xcframework in Embed Frameworks */,
+				910FFC782AB87CA3002F20CF /* AgoraDav1d.xcframework in Embed Frameworks */,
+				910FFC862AB87D06002F20CF /* AgoraSoundTouch.xcframework in Embed Frameworks */,
+				910FFC7E2AB87CC8002F20CF /* AgoraMicrosoftExtension.framework in Embed Frameworks */,
+				910FFC802AB87CD6002F20CF /* AgoraPvcExtension.xcframework in Embed Frameworks */,
+				910FFC7C2AB87CBB002F20CF /* Agoraffmpeg.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		910FFBA42AB877BD002F20CF /* CustomServiceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomServiceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		910FFBA72AB877BD002F20CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		910FFBA82AB877BD002F20CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		910FFBAD2AB877BD002F20CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		910FFBAE2AB877BD002F20CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		910FFBB32AB877BF002F20CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		910FFBB62AB877BF002F20CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		910FFBB82AB877BF002F20CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910FFBB92AB877BF002F20CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		910FFBBF2AB877BF002F20CF /* CustomServiceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomServiceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		910FFBC32AB877BF002F20CF /* CustomServiceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomServiceDemoTests.m; sourceTree = "<group>"; };
+		910FFBC92AB877BF002F20CF /* CustomServiceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomServiceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		910FFBCD2AB877BF002F20CF /* CustomServiceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomServiceDemoUITests.m; sourceTree = "<group>"; };
+		910FFBCF2AB877BF002F20CF /* CustomServiceDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomServiceDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		910FFBDE2AB8798C002F20CF /* __uniappes6.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = __uniappes6.js; sourceTree = "<group>"; };
+		910FFBDF2AB8798C002F20CF /* uni-jsframework.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "uni-jsframework.js"; sourceTree = "<group>"; };
+		910FFBE02AB8798C002F20CF /* DCTZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DCTZImagePickerController.bundle; sourceTree = "<group>"; };
+		910FFBE12AB8798C002F20CF /* DCMediaEditingController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DCMediaEditingController.bundle; sourceTree = "<group>"; };
+		910FFBE22AB8798C002F20CF /* PandoraApi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PandoraApi.bundle; sourceTree = "<group>"; };
+		910FFBE32AB8798C002F20CF /* uni-jsframework-vue3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "uni-jsframework-vue3.js"; sourceTree = "<group>"; };
+		910FFBE42AB8798C002F20CF /* unincomponents.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = unincomponents.ttf; sourceTree = "<group>"; };
+		910FFBE52AB8798C002F20CF /* weex-polyfill.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "weex-polyfill.js"; sourceTree = "<group>"; };
+		910FFBE62AB8798C002F20CF /* weexUniJs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = weexUniJs.js; sourceTree = "<group>"; };
+		910FFBE82AB8798C002F20CF /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Masonry.framework; sourceTree = "<group>"; };
+		910FFBE92AB8798C002F20CF /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDWebImage.a; sourceTree = "<group>"; };
+		910FFBEA2AB8798C002F20CF /* liblibIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibIO.a; sourceTree = "<group>"; };
+		910FFBEB2AB8798C002F20CF /* AgoraAudioBeautyExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAudioBeautyExtension.xcframework; sourceTree = "<group>"; };
+		910FFBEC2AB8798C002F20CF /* AgoraSpatialAudioExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSpatialAudioExtension.xcframework; sourceTree = "<group>"; };
+		910FFBED2AB8798C002F20CF /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		910FFBEE2AB8798C002F20CF /* AgoraRtcKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraRtcKit.xcframework; sourceTree = "<group>"; };
+		910FFBEF2AB8798C002F20CF /* AgoraRtcUniPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcUniPlugin.framework; sourceTree = "<group>"; };
+		910FFBF02AB8798C002F20CF /* liblibWeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibWeex.a; sourceTree = "<group>"; };
+		910FFBF12AB8798C002F20CF /* liblibPDRCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibPDRCore.a; sourceTree = "<group>"; };
+		910FFBF22AB8798C002F20CF /* AgoraClearVisionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraClearVisionExtension.xcframework; sourceTree = "<group>"; };
+		910FFBF32AB8798C002F20CF /* liblibVideo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibVideo.a; sourceTree = "<group>"; };
+		910FFBF42AB8798C002F20CF /* AgoraVideoSegmentationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoSegmentationExtension.xcframework; sourceTree = "<group>"; };
+		910FFBF52AB8798C002F20CF /* AgoraContentInspectExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraContentInspectExtension.xcframework; sourceTree = "<group>"; };
+		910FFBF62AB8798C002F20CF /* AgoraAiNoiseSuppressionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraAiNoiseSuppressionExtension.xcframework; sourceTree = "<group>"; };
+		910FFBF72AB8798C002F20CF /* AgoraPvcExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraPvcExtension.xcframework; sourceTree = "<group>"; };
+		910FFBF82AB8798C002F20CF /* AgoraDav1d.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraDav1d.xcframework; sourceTree = "<group>"; };
+		910FFBF92AB8798C002F20CF /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		910FFBFA2AB8798C002F20CF /* liblibNativeUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibNativeUI.a; sourceTree = "<group>"; };
+		910FFBFB2AB8798C002F20CF /* liblibUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibUI.a; sourceTree = "<group>"; };
+		910FFBFC2AB8798C002F20CF /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		910FFBFD2AB8798C002F20CF /* libcoreSupport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcoreSupport.a; sourceTree = "<group>"; };
+		910FFBFE2AB8798C002F20CF /* liblibStorage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibStorage.a; sourceTree = "<group>"; };
+		910FFBFF2AB8798C002F20CF /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agorafdkaac.xcframework; sourceTree = "<group>"; };
+		910FFC002AB8798C002F20CF /* liblibPGInvocation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibPGInvocation.a; sourceTree = "<group>"; };
+		910FFC012AB8798C002F20CF /* IJKMediaFrameworkWithSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFrameworkWithSSL.framework; sourceTree = "<group>"; };
+		910FFC022AB8798C002F20CF /* AgoraMicrosoftExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraMicrosoftExtension.framework; sourceTree = "<group>"; };
+		910FFC032AB8798C002F20CF /* CustomService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CustomService.framework; sourceTree = "<group>"; };
+		910FFC042AB8798C002F20CF /* libDCUniVideo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDCUniVideo.a; sourceTree = "<group>"; };
+		910FFC052AB8798C002F20CF /* DCUniVideoPublic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DCUniVideoPublic.framework; sourceTree = "<group>"; };
+		910FFC062AB8798C002F20CF /* liblibNavigator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibNavigator.a; sourceTree = "<group>"; };
+		910FFC072AB8798C002F20CF /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
+		910FFC082AB8798C002F20CF /* storage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = storage.framework; sourceTree = "<group>"; };
+		910FFC092AB8798C002F20CF /* liblibCamera.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibCamera.a; sourceTree = "<group>"; };
+		910FFC0A2AB8798C002F20CF /* AgoraReplayKitExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraReplayKitExtension.xcframework; sourceTree = "<group>"; };
+		910FFC0B2AB8798C002F20CF /* DCUniRecord.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DCUniRecord.framework; sourceTree = "<group>"; };
+		910FFC0C2AB8798C002F20CF /* liblibMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibMedia.a; sourceTree = "<group>"; };
+		910FFC0D2AB8798C002F20CF /* MicrosoftCognitiveServicesSpeech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftCognitiveServicesSpeech.framework; sourceTree = "<group>"; };
+		910FFC0E2AB8798C002F20CF /* AgoraSuperResolutionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSuperResolutionExtension.xcframework; sourceTree = "<group>"; };
+		910FFC0F2AB8798C002F20CF /* liblibNativeObj.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibNativeObj.a; sourceTree = "<group>"; };
+		910FFC102AB8798C002F20CF /* liblibZip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibZip.a; sourceTree = "<group>"; };
+		910FFC442AB87B0F002F20CF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		910FFC462AB87B1A002F20CF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		910FFC482AB87B23002F20CF /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		910FFC4A2AB87B30002F20CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		910FFC4C2AB87B3F002F20CF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		910FFC4E2AB87B4C002F20CF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		910FFC502AB87B55002F20CF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		910FFC522AB87B60002F20CF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		910FFC542AB87B69002F20CF /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		910FFC562AB87B7A002F20CF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		910FFC582AB87B8A002F20CF /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		910FFC5A2AB87B98002F20CF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		910FFC5C2AB87BAA002F20CF /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		910FFC5E2AB87BB7002F20CF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		910FFC602AB87BC4002F20CF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		910FFC622AB87BD0002F20CF /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		910FFC642AB87BDA002F20CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		910FFC662AB87BE6002F20CF /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		910FFC682AB87BF1002F20CF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		910FFC6A2AB87C33002F20CF /* CustomServiceDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomServiceDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		910FFC6B2AB87C34002F20CF /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		910FFBA12AB877BD002F20CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910FFC692AB87BF1002F20CF /* WebKit.framework in Frameworks */,
+				910FFC672AB87BE6002F20CF /* QuickLook.framework in Frameworks */,
+				910FFC812AB87CE4002F20CF /* AgoraReplayKitExtension.xcframework in Frameworks */,
+				910FFC652AB87BDA002F20CF /* QuartzCore.framework in Frameworks */,
+				910FFC632AB87BD0002F20CF /* Photos.framework in Frameworks */,
+				910FFC612AB87BC4002F20CF /* OpenGLES.framework in Frameworks */,
+				910FFC5F2AB87BB7002F20CF /* MobileCoreServices.framework in Frameworks */,
+				910FFC732AB87C8D002F20CF /* AgoraClearVisionExtension.xcframework in Frameworks */,
+				910FFC852AB87D02002F20CF /* AgoraSoundTouch.xcframework in Frameworks */,
+				910FFC5D2AB87BAA002F20CF /* MetalKit.framework in Frameworks */,
+				910FFC5B2AB87B98002F20CF /* MediaPlayer.framework in Frameworks */,
+				910FFC7B2AB87CB8002F20CF /* Agoraffmpeg.xcframework in Frameworks */,
+				910FFC592AB87B8B002F20CF /* libiconv.tbd in Frameworks */,
+				910FFC572AB87B7A002F20CF /* libc++.tbd in Frameworks */,
+				910FFC552AB87B69002F20CF /* JavaScriptCore.framework in Frameworks */,
+				910FFC532AB87B60002F20CF /* GLKit.framework in Frameworks */,
+				910FFC512AB87B55002F20CF /* CoreText.framework in Frameworks */,
+				910FFC4F2AB87B4C002F20CF /* CoreTelephony.framework in Frameworks */,
+				910FFC832AB87CF2002F20CF /* AgoraRtcKit.xcframework in Frameworks */,
+				910FFC4D2AB87B3F002F20CF /* CoreMedia.framework in Frameworks */,
+				910FFC712AB87C84002F20CF /* AgoraAudioBeautyExtension.xcframework in Frameworks */,
+				910FFC4B2AB87B31002F20CF /* CoreGraphics.framework in Frameworks */,
+				910FFC892AB87D22002F20CF /* AgoraSuperResolutionExtension.xcframework in Frameworks */,
+				910FFC492AB87B23002F20CF /* AVKit.framework in Frameworks */,
+				910FFC772AB87CA1002F20CF /* AgoraDav1d.xcframework in Frameworks */,
+				910FFC472AB87B1A002F20CF /* AVFoundation.framework in Frameworks */,
+				910FFC452AB87B0F002F20CF /* AssetsLibrary.framework in Frameworks */,
+				910FFC412AB879A8002F20CF /* liblibNativeObj.a in Frameworks */,
+				910FFC1A2AB8798C002F20CF /* Masonry.framework in Frameworks */,
+				910FFC752AB87C97002F20CF /* AgoraContentInspectExtension.xcframework in Frameworks */,
+				910FFC322AB87997002F20CF /* liblibPGInvocation.a in Frameworks */,
+				910FFC2D2AB87993002F20CF /* liblibUI.a in Frameworks */,
+				910FFC7F2AB87CD2002F20CF /* AgoraPvcExtension.xcframework in Frameworks */,
+				910FFC252AB8798F002F20CF /* liblibVideo.a in Frameworks */,
+				910FFC8B2AB87D34002F20CF /* AgoraVideoSegmentationExtension.xcframework in Frameworks */,
+				910FFC1C2AB8798D002F20CF /* liblibIO.a in Frameworks */,
+				910FFC2E2AB87994002F20CF /* libmp3lame.a in Frameworks */,
+				910FFC6E2AB87C7B002F20CF /* AgoraAiNoiseSuppressionExtension.xcframework in Frameworks */,
+				910FFC362AB8799B002F20CF /* libDCUniVideo.a in Frameworks */,
+				910FFC222AB8798E002F20CF /* liblibWeex.a in Frameworks */,
+				910FFC8D2AB87D49002F20CF /* MicrosoftCognitiveServicesSpeech.framework in Frameworks */,
+				910FFC422AB879AA002F20CF /* liblibZip.a in Frameworks */,
+				910FFC7D2AB87CC5002F20CF /* AgoraMicrosoftExtension.framework in Frameworks */,
+				910FFC3A2AB879A0002F20CF /* storage.framework in Frameworks */,
+				910FFC3B2AB879A1002F20CF /* liblibCamera.a in Frameworks */,
+				910FFC332AB87998002F20CF /* IJKMediaFrameworkWithSSL.framework in Frameworks */,
+				910FFC792AB87CAC002F20CF /* Agorafdkaac.xcframework in Frameworks */,
+				910FFC382AB8799D002F20CF /* liblibNavigator.a in Frameworks */,
+				910FFC3E2AB879A4002F20CF /* liblibMedia.a in Frameworks */,
+				910FFC212AB8798D002F20CF /* AgoraRtcUniPlugin.framework in Frameworks */,
+				910FFC352AB8799A002F20CF /* CustomService.framework in Frameworks */,
+				910FFC372AB8799C002F20CF /* DCUniVideoPublic.framework in Frameworks */,
+				910FFC2B2AB87992002F20CF /* libopencore-amrnb.a in Frameworks */,
+				910FFC872AB87D11002F20CF /* AgoraSpatialAudioExtension.xcframework in Frameworks */,
+				910FFC1B2AB8798D002F20CF /* libSDWebImage.a in Frameworks */,
+				910FFC232AB8798E002F20CF /* liblibPDRCore.a in Frameworks */,
+				910FFC3D2AB879A3002F20CF /* DCUniRecord.framework in Frameworks */,
+				910FFC302AB87995002F20CF /* liblibStorage.a in Frameworks */,
+				910FFC2C2AB87992002F20CF /* liblibNativeUI.a in Frameworks */,
+				910FFC2F2AB87994002F20CF /* libcoreSupport.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910FFBBC2AB877BF002F20CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910FFBC62AB877BF002F20CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		910FFB9B2AB877BD002F20CF = {
+			isa = PBXGroup;
+			children = (
+				910FFBA62AB877BD002F20CF /* CustomServiceDemo */,
+				910FFBC22AB877BF002F20CF /* CustomServiceDemoTests */,
+				910FFBCC2AB877BF002F20CF /* CustomServiceDemoUITests */,
+				910FFBA52AB877BD002F20CF /* Products */,
+				910FFC432AB87B0F002F20CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		910FFBA52AB877BD002F20CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910FFBA42AB877BD002F20CF /* CustomServiceDemo.app */,
+				910FFBBF2AB877BF002F20CF /* CustomServiceDemoTests.xctest */,
+				910FFBC92AB877BF002F20CF /* CustomServiceDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		910FFBA62AB877BD002F20CF /* CustomServiceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				910FFBDC2AB8798C002F20CF /* CustomService */,
+				910FFBA72AB877BD002F20CF /* AppDelegate.h */,
+				910FFBA82AB877BD002F20CF /* AppDelegate.m */,
+				910FFBAD2AB877BD002F20CF /* ViewController.h */,
+				910FFBAE2AB877BD002F20CF /* ViewController.m */,
+				910FFBB32AB877BF002F20CF /* Assets.xcassets */,
+				910FFBB52AB877BF002F20CF /* LaunchScreen.storyboard */,
+				910FFBB82AB877BF002F20CF /* Info.plist */,
+				910FFBB92AB877BF002F20CF /* main.m */,
+			);
+			path = CustomServiceDemo;
+			sourceTree = "<group>";
+		};
+		910FFBC22AB877BF002F20CF /* CustomServiceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				910FFBC32AB877BF002F20CF /* CustomServiceDemoTests.m */,
+			);
+			path = CustomServiceDemoTests;
+			sourceTree = "<group>";
+		};
+		910FFBCC2AB877BF002F20CF /* CustomServiceDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				910FFBCD2AB877BF002F20CF /* CustomServiceDemoUITests.m */,
+				910FFBCF2AB877BF002F20CF /* CustomServiceDemoUITestsLaunchTests.m */,
+			);
+			path = CustomServiceDemoUITests;
+			sourceTree = "<group>";
+		};
+		910FFBDC2AB8798C002F20CF /* CustomService */ = {
+			isa = PBXGroup;
+			children = (
+				910FFBDD2AB8798C002F20CF /* Resources */,
+				910FFBE72AB8798C002F20CF /* Libs */,
+				910FFC6B2AB87C34002F20CF /* File.swift */,
+				910FFC6A2AB87C33002F20CF /* CustomServiceDemo-Bridging-Header.h */,
+			);
+			path = CustomService;
+			sourceTree = "<group>";
+		};
+		910FFBDD2AB8798C002F20CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				910FFBDE2AB8798C002F20CF /* __uniappes6.js */,
+				910FFBDF2AB8798C002F20CF /* uni-jsframework.js */,
+				910FFBE02AB8798C002F20CF /* DCTZImagePickerController.bundle */,
+				910FFBE12AB8798C002F20CF /* DCMediaEditingController.bundle */,
+				910FFBE22AB8798C002F20CF /* PandoraApi.bundle */,
+				910FFBE32AB8798C002F20CF /* uni-jsframework-vue3.js */,
+				910FFBE42AB8798C002F20CF /* unincomponents.ttf */,
+				910FFBE52AB8798C002F20CF /* weex-polyfill.js */,
+				910FFBE62AB8798C002F20CF /* weexUniJs.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		910FFBE72AB8798C002F20CF /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				910FFBF62AB8798C002F20CF /* AgoraAiNoiseSuppressionExtension.xcframework */,
+				910FFBEB2AB8798C002F20CF /* AgoraAudioBeautyExtension.xcframework */,
+				910FFBF22AB8798C002F20CF /* AgoraClearVisionExtension.xcframework */,
+				910FFBF52AB8798C002F20CF /* AgoraContentInspectExtension.xcframework */,
+				910FFBF82AB8798C002F20CF /* AgoraDav1d.xcframework */,
+				910FFBFF2AB8798C002F20CF /* Agorafdkaac.xcframework */,
+				910FFBED2AB8798C002F20CF /* Agoraffmpeg.xcframework */,
+				910FFC022AB8798C002F20CF /* AgoraMicrosoftExtension.framework */,
+				910FFBF72AB8798C002F20CF /* AgoraPvcExtension.xcframework */,
+				910FFC0A2AB8798C002F20CF /* AgoraReplayKitExtension.xcframework */,
+				910FFBEE2AB8798C002F20CF /* AgoraRtcKit.xcframework */,
+				910FFBEF2AB8798C002F20CF /* AgoraRtcUniPlugin.framework */,
+				910FFC072AB8798C002F20CF /* AgoraSoundTouch.xcframework */,
+				910FFBEC2AB8798C002F20CF /* AgoraSpatialAudioExtension.xcframework */,
+				910FFC0E2AB8798C002F20CF /* AgoraSuperResolutionExtension.xcframework */,
+				910FFBF42AB8798C002F20CF /* AgoraVideoSegmentationExtension.xcframework */,
+				910FFC032AB8798C002F20CF /* CustomService.framework */,
+				910FFC0B2AB8798C002F20CF /* DCUniRecord.framework */,
+				910FFC052AB8798C002F20CF /* DCUniVideoPublic.framework */,
+				910FFC012AB8798C002F20CF /* IJKMediaFrameworkWithSSL.framework */,
+				910FFBFD2AB8798C002F20CF /* libcoreSupport.a */,
+				910FFC042AB8798C002F20CF /* libDCUniVideo.a */,
+				910FFC092AB8798C002F20CF /* liblibCamera.a */,
+				910FFBEA2AB8798C002F20CF /* liblibIO.a */,
+				910FFC0C2AB8798C002F20CF /* liblibMedia.a */,
+				910FFC0F2AB8798C002F20CF /* liblibNativeObj.a */,
+				910FFBFA2AB8798C002F20CF /* liblibNativeUI.a */,
+				910FFC062AB8798C002F20CF /* liblibNavigator.a */,
+				910FFBF12AB8798C002F20CF /* liblibPDRCore.a */,
+				910FFC002AB8798C002F20CF /* liblibPGInvocation.a */,
+				910FFBFE2AB8798C002F20CF /* liblibStorage.a */,
+				910FFBFB2AB8798C002F20CF /* liblibUI.a */,
+				910FFBF32AB8798C002F20CF /* liblibVideo.a */,
+				910FFBF02AB8798C002F20CF /* liblibWeex.a */,
+				910FFC102AB8798C002F20CF /* liblibZip.a */,
+				910FFBFC2AB8798C002F20CF /* libmp3lame.a */,
+				910FFBF92AB8798C002F20CF /* libopencore-amrnb.a */,
+				910FFBE92AB8798C002F20CF /* libSDWebImage.a */,
+				910FFBE82AB8798C002F20CF /* Masonry.framework */,
+				910FFC0D2AB8798C002F20CF /* MicrosoftCognitiveServicesSpeech.framework */,
+				910FFC082AB8798C002F20CF /* storage.framework */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		910FFC432AB87B0F002F20CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				910FFC682AB87BF1002F20CF /* WebKit.framework */,
+				910FFC662AB87BE6002F20CF /* QuickLook.framework */,
+				910FFC642AB87BDA002F20CF /* QuartzCore.framework */,
+				910FFC622AB87BD0002F20CF /* Photos.framework */,
+				910FFC602AB87BC4002F20CF /* OpenGLES.framework */,
+				910FFC5E2AB87BB7002F20CF /* MobileCoreServices.framework */,
+				910FFC5C2AB87BAA002F20CF /* MetalKit.framework */,
+				910FFC5A2AB87B98002F20CF /* MediaPlayer.framework */,
+				910FFC582AB87B8A002F20CF /* libiconv.tbd */,
+				910FFC562AB87B7A002F20CF /* libc++.tbd */,
+				910FFC542AB87B69002F20CF /* JavaScriptCore.framework */,
+				910FFC522AB87B60002F20CF /* GLKit.framework */,
+				910FFC502AB87B55002F20CF /* CoreText.framework */,
+				910FFC4E2AB87B4C002F20CF /* CoreTelephony.framework */,
+				910FFC4C2AB87B3F002F20CF /* CoreMedia.framework */,
+				910FFC4A2AB87B30002F20CF /* CoreGraphics.framework */,
+				910FFC482AB87B23002F20CF /* AVKit.framework */,
+				910FFC462AB87B1A002F20CF /* AVFoundation.framework */,
+				910FFC442AB87B0F002F20CF /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		910FFBA32AB877BD002F20CF /* CustomServiceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910FFBD32AB877BF002F20CF /* Build configuration list for PBXNativeTarget "CustomServiceDemo" */;
+			buildPhases = (
+				910FFBA02AB877BD002F20CF /* Sources */,
+				910FFBA12AB877BD002F20CF /* Frameworks */,
+				910FFBA22AB877BD002F20CF /* Resources */,
+				910FFC702AB87C7F002F20CF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomServiceDemo;
+			productName = CustomServiceDemo;
+			productReference = 910FFBA42AB877BD002F20CF /* CustomServiceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		910FFBBE2AB877BF002F20CF /* CustomServiceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910FFBD62AB877BF002F20CF /* Build configuration list for PBXNativeTarget "CustomServiceDemoTests" */;
+			buildPhases = (
+				910FFBBB2AB877BF002F20CF /* Sources */,
+				910FFBBC2AB877BF002F20CF /* Frameworks */,
+				910FFBBD2AB877BF002F20CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				910FFBC12AB877BF002F20CF /* PBXTargetDependency */,
+			);
+			name = CustomServiceDemoTests;
+			productName = CustomServiceDemoTests;
+			productReference = 910FFBBF2AB877BF002F20CF /* CustomServiceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		910FFBC82AB877BF002F20CF /* CustomServiceDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910FFBD92AB877BF002F20CF /* Build configuration list for PBXNativeTarget "CustomServiceDemoUITests" */;
+			buildPhases = (
+				910FFBC52AB877BF002F20CF /* Sources */,
+				910FFBC62AB877BF002F20CF /* Frameworks */,
+				910FFBC72AB877BF002F20CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				910FFBCB2AB877BF002F20CF /* PBXTargetDependency */,
+			);
+			name = CustomServiceDemoUITests;
+			productName = CustomServiceDemoUITests;
+			productReference = 910FFBC92AB877BF002F20CF /* CustomServiceDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		910FFB9C2AB877BD002F20CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					910FFBA32AB877BD002F20CF = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+					};
+					910FFBBE2AB877BF002F20CF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 910FFBA32AB877BD002F20CF;
+					};
+					910FFBC82AB877BF002F20CF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 910FFBA32AB877BD002F20CF;
+					};
+				};
+			};
+			buildConfigurationList = 910FFB9F2AB877BD002F20CF /* Build configuration list for PBXProject "CustomServiceDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 910FFB9B2AB877BD002F20CF;
+			productRefGroup = 910FFBA52AB877BD002F20CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				910FFBA32AB877BD002F20CF /* CustomServiceDemo */,
+				910FFBBE2AB877BF002F20CF /* CustomServiceDemoTests */,
+				910FFBC82AB877BF002F20CF /* CustomServiceDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		910FFBA22AB877BD002F20CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910FFC6D2AB87C66002F20CF /* CustomService.framework in Resources */,
+				910FFC142AB8798C002F20CF /* DCMediaEditingController.bundle in Resources */,
+				910FFBB72AB877BF002F20CF /* LaunchScreen.storyboard in Resources */,
+				910FFC182AB8798C002F20CF /* weex-polyfill.js in Resources */,
+				910FFC122AB8798C002F20CF /* uni-jsframework.js in Resources */,
+				910FFC152AB8798C002F20CF /* PandoraApi.bundle in Resources */,
+				910FFC132AB8798C002F20CF /* DCTZImagePickerController.bundle in Resources */,
+				910FFC172AB8798C002F20CF /* unincomponents.ttf in Resources */,
+				910FFC112AB8798C002F20CF /* __uniappes6.js in Resources */,
+				910FFC162AB8798C002F20CF /* uni-jsframework-vue3.js in Resources */,
+				910FFC192AB8798C002F20CF /* weexUniJs.js in Resources */,
+				910FFBB42AB877BF002F20CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910FFBBD2AB877BF002F20CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910FFBC72AB877BF002F20CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		910FFBA02AB877BD002F20CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910FFBAF2AB877BD002F20CF /* ViewController.m in Sources */,
+				910FFC6C2AB87C34002F20CF /* File.swift in Sources */,
+				910FFBA92AB877BD002F20CF /* AppDelegate.m in Sources */,
+				910FFBBA2AB877BF002F20CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910FFBBB2AB877BF002F20CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910FFBC42AB877BF002F20CF /* CustomServiceDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910FFBC52AB877BF002F20CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910FFBD02AB877BF002F20CF /* CustomServiceDemoUITestsLaunchTests.m in Sources */,
+				910FFBCE2AB877BF002F20CF /* CustomServiceDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		910FFBC12AB877BF002F20CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 910FFBA32AB877BD002F20CF /* CustomServiceDemo */;
+			targetProxy = 910FFBC02AB877BF002F20CF /* PBXContainerItemProxy */;
+		};
+		910FFBCB2AB877BF002F20CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 910FFBA32AB877BD002F20CF /* CustomServiceDemo */;
+			targetProxy = 910FFBCA2AB877BF002F20CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		910FFBB52AB877BF002F20CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910FFBB62AB877BF002F20CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		910FFBD12AB877BF002F20CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		910FFBD22AB877BF002F20CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		910FFBD42AB877BF002F20CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3H69R3G362;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomServiceDemo/CustomService/Libs",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomServiceDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomServiceDemo/CustomService/Libs",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmchat..CustomServiceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomServiceDemo/CustomService/CustomServiceDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		910FFBD52AB877BF002F20CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3H69R3G362;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomServiceDemo/CustomService/Libs",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomServiceDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomServiceDemo/CustomService/Libs",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmchat..CustomServiceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CustomServiceDemo/CustomService/CustomServiceDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		910FFBD72AB877BF002F20CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3H69R3G362;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmchat..CustomServiceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomServiceDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomServiceDemo";
+			};
+			name = Debug;
+		};
+		910FFBD82AB877BF002F20CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3H69R3G362;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmchat..CustomServiceDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomServiceDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomServiceDemo";
+			};
+			name = Release;
+		};
+		910FFBDA2AB877BF002F20CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3H69R3G362;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmchat..CustomServiceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomServiceDemo;
+			};
+			name = Debug;
+		};
+		910FFBDB2AB877BF002F20CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3H69R3G362;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmchat..CustomServiceDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomServiceDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		910FFB9F2AB877BD002F20CF /* Build configuration list for PBXProject "CustomServiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910FFBD12AB877BF002F20CF /* Debug */,
+				910FFBD22AB877BF002F20CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910FFBD32AB877BF002F20CF /* Build configuration list for PBXNativeTarget "CustomServiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910FFBD42AB877BF002F20CF /* Debug */,
+				910FFBD52AB877BF002F20CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910FFBD62AB877BF002F20CF /* Build configuration list for PBXNativeTarget "CustomServiceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910FFBD72AB877BF002F20CF /* Debug */,
+				910FFBD82AB877BF002F20CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910FFBD92AB877BF002F20CF /* Build configuration list for PBXNativeTarget "CustomServiceDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910FFBDA2AB877BF002F20CF /* Debug */,
+				910FFBDB2AB877BF002F20CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 910FFB9C2AB877BD002F20CF /* Project object */;
+}
